@@ -18,6 +18,7 @@ export const Wrapper = styled.div`
     justify-content: space-around;
     gap: 1em;
     margin: 0 auto;
+    
     img{
         width: 8em;
         height: 2em;
@@ -55,15 +56,17 @@ export const InputContainer = styled.div`
 export const WrapperContainer = styled.div`
     display:flex;
     gap: 3em;
+    
 `
 
 
 export const Offers = styled.div`
+
         a{
             text-decoration: none;
-            color: #333333;
+            color: rgba(0, 0, 0, 0.5);
         }
-        color: #333333;        
+        color: rgba(0, 0, 0, 0.5);       
         .iconMoney{
             margin-top: .3em;
             color: darkGray;
@@ -90,7 +93,7 @@ export const Location = styled.div`
         height: 2.5em;
         display: flex;
         margin-left: 1.85em;
-        color: #333333;
+        color: rgba(0, 0, 0, 0.5);
         gap: .6em;
         .ArrowIcon{
             font-size: 1.6em;
@@ -106,6 +109,7 @@ export const Location = styled.div`
 `
 
 export const List = styled.div`
+
         .List__list{
             list-style: none;
             display: flex;
@@ -115,7 +119,7 @@ export const List = styled.div`
         }
         .List__item a{
             text-decoration: none;
-            color: #333333;
+            color: rgba(0, 0, 0, 0.5);
         }
         .List__menu{
             display: flex;
@@ -124,11 +128,12 @@ export const List = styled.div`
             font-size: .8em;
             list-style: none;
             align-items: center;
+
         }
 
         .List__menu-item a{
             text-decoration: none;
-            color: #333333;
+            color: rgba(0, 0, 0, 0.5);
         }
 
         .List__menu-item{
