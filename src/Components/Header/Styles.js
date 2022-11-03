@@ -64,12 +64,13 @@ export const Offers = styled.div`
 
         a{
             text-decoration: none;
-            color: rgba(0, 0, 0, 0.5);
+            color: rgba(0, 0, 0, 0.8);
         }
         color: rgba(0, 0, 0, 0.5);       
         .iconMoney{
             margin-top: .3em;
             color: darkGray;
+            margin-bottom: -.2em;
             margin-right: .3em;
         }
 `
@@ -93,7 +94,7 @@ export const Location = styled.div`
         height: 2.5em;
         display: flex;
         margin-left: 1.85em;
-        color: rgba(0, 0, 0, 0.5);
+        color: rgba(0, 0, 0, 0.9);
         gap: .6em;
         .ArrowIcon{
             font-size: 1.6em;
@@ -119,7 +120,7 @@ export const List = styled.div`
         }
         .List__item a{
             text-decoration: none;
-            color: rgba(0, 0, 0, 0.5);
+            color: rgba(0, 0, 0, 0.6);
         }
         .List__menu{
             display: flex;
@@ -133,7 +134,7 @@ export const List = styled.div`
 
         .List__menu-item a{
             text-decoration: none;
-            color: rgba(0, 0, 0, 0.5);
+            color: rgba(0, 0, 0, 0.9);
         }
 
         .List__menu-item{

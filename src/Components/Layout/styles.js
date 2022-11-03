@@ -10,7 +10,8 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
     max-width: 67em;
     margin: 0 auto;
-    margin-top: -.4em
+    margin-top: -.4em;
+    
    
     
 `

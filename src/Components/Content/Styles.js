@@ -6,15 +6,30 @@ export const Container = styled.div`
     flex-direction: column;
     margin-top: .8em;
     
+    
 `
 
 export const Panel = styled.div`
     background-color: white;
     display: grid;
     grid-template-columns: 67fr 33fr;
+    border-bottom: 1px solid rgba(0,0,0, 0.5);
+    padding-bottom: 2em;
+    
 `
 
-export const Column = styled.div``
+export const Column = styled.div`
+    position: relative;
+    
+    .iconHeart{
+        font-size: 1.5em;
+        color: red;
+        position:absolute;
+        right: 10px;
+        top: 5px;
+
+    }
+`
 
 export const Galery = styled.div`
     display: flex;
@@ -167,6 +182,7 @@ export const CarouselItemContainer = styled.div`
 
 export const Description = styled.div`
     padding: 3em;
+    
     h4, p{
         color: rgba(0, 0, 0, 0.5);
         font-size: 1.18em;
@@ -175,6 +191,9 @@ export const Description = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        padding-bottom: 4em;
+        border-bottom: 1px solid rgba(0,0,0, 0.3);
+        border-top: 1px solid rgba(0,0,0, 0.3);
         
     }
     h3{
@@ -254,3 +273,349 @@ export const ContainerItem = styled.div`
     }
 `
 
+export const DescriptionContainer = styled.div`
+    
+    position: sticky;
+    top:0;
+    right:0;
+    
+`
+
+export const Box = styled.div`
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .7em;
+    margin: .5em .2em;
+    padding:.5em;
+
+    .delivery__container{
+        display:flex;
+        gap: 1em;
+    }
+
+    .delivery{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        
+        
+    }
+
+    .delivery__icon{
+        color:green;
+    }
+
+    .delivery__arrival{
+        color:green;
+    }
+
+    .delivery__direction{
+        font-size: .7em;
+        color: blue;
+        margin-top: -.8em;
+        :hover{
+            cursor:pointer;
+        }
+    }
+
+    .store{
+        display:flex;
+        align-items: center;
+        justify-content: start;
+        margin-left: .5em;
+        gap: 1em;
+    }
+
+    .store__img{
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .store__name{
+        font-size:.7em;
+        a{
+            color:blue;
+            :hover{
+                cursor: pointer;
+            }
+        }
+        margin-bottom: -.4em;
+    }
+
+    .store__sells{
+        font-size: .7em;
+        margin-bottom: -.4em;
+    }
+
+    .store__facturation{
+        font-size:.7em;
+        color: rgba(0,0,0,0.5);
+    }
+
+    .stock{
+        font-size: .8em;
+        margin-left: .5em;
+    }
+
+    .quantity{
+        font-size:.8em;
+        margin-left:.5em;
+    }
+
+    .buy{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 94%;
+        height: 3em;
+        border:none;
+        background-color: #3483fa;
+        color: white;
+        font-weight: bold;
+        border-radius:.6em;
+        :hover{
+            cursor:pointer;
+
+        }
+    }
+
+    .protected{
+        margin-top: 2em;
+        display: flex;
+        font-size: .8em;
+        color: rgba(0,0,0,0.5);
+        align-items: center;
+        gap: .5em;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    .points{
+        display: flex;
+        font-size: .8em;
+        color: rgba(0,0,0,0.5);
+        align-items: center;
+        gap: .5em;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    .warranty{
+        display: flex;
+        font-size: .8em;
+        color: rgba(0,0,0,0.5);
+        align-items: center;
+        gap: .5em;
+    }
+
+    .medal{
+        color: green;
+        margin-top: 1em;
+        margin-left: .8em;
+    }
+
+    .advertisement{
+        font-size: .8em;
+        color: rgba(0, 0, 0, 0.5);
+        margin-top:-.5em;
+        margin-left:.8em;
+    }
+
+    .traker{
+        margin-bottom: 4em;
+    }
+
+    .traker__bar{
+        height: 1em;
+        width: 90%;
+        margin: 1em auto;
+        border-radius: .4em;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .traker__bar-section1{
+
+        width: 75%;
+        height: 100%;
+        background-color: #f1fdd7;
+        
+    }
+
+    .traker__bar-section2{
+        width:25%;
+        height:100%;
+        background-color: #39b54a;
+
+    }
+
+    .traker__description{
+        
+        display: flex;
+        align-items: start;
+        
+        
+        
+    }
+
+    .traker__description-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 4em;
+    }
+
+    .item__title{
+        font-size:1.2em;
+    }
+
+    .item__description{
+        margin-top: -1em;
+        font-size: .75em;
+        color: rgba(0,0,0, 0.8);
+    }
+
+    .item1{
+        border-right: 1px solid rgba(0,0,0,0.5);
+    }
+
+    .item2{
+        border-right: 1px solid rgba(0,0,0,0.5);
+    }
+
+    .traker__link{
+        text-decoration: none;
+        margin-left: 0.8em;
+        font-size: .8em;
+    }
+    .creditInfo{
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+
+    .paymenmeans{
+        font-size: .8em;
+        text-decoration: none;
+    }
+`
+
+export const SimilProducts = styled.div`
+    width: 100%;
+    height: 100%;
+    padding: 1.5em;
+    .simil__title{
+        font-weight: 500;
+    }
+`
+
+export const Comparation = styled.div`
+    display: grid;
+    grid-template-columns: repeat(5, 183px);
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    padding: 1em;
+    
+    .item{
+        width: 14.2em;
+        height: 14.2em;
+        text-align: center;
+        font-size:.7em;
+        margin-bottom: 1em;
+        img{
+            width: 80%;
+            height: 40%;
+        }
+    }
+`
+export const Opinions = styled.div`
+    width: 59.5em;
+    padding: 1em 2em;
+    .opinion__title{
+        font-size: 1.6em;
+        font-weight: 500;
+    }
+`
+export const OpinionsContainer = styled.div`
+    width: 48.2em;
+    padding: 1em;
+    display: flex;
+
+    
+    .score{
+        display:flex;
+        align-items: center;
+        gap: .5em;
+        margin-top: -2em;
+        
+    }
+    .score__number{
+        font-size: 2.6em;
+        font-weight: 700;
+        color: #3483fa;
+    }
+    .score__star{
+        color: #3483fa;
+    }
+
+    .bars__metric{
+        display: flex;
+        align-items: center;
+        gap:.7em;
+        margin-top: -2em;
+    }
+
+    .bars{
+        display: flex;
+        height: .2em;
+        width: 10em;
+        border: 1px solid black;        border-radius:.4em;
+        overflow: hidden;
+        
+    }
+    .section1-bars1{
+        width: 90%;
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .section1-bars2{
+        width: 5%;
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .section1-bars3{
+        width: 3%;
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .section1-bars4{
+        width: 2%;
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .section1-bars5{
+        width: 0%;
+        background-color: rgba(0,0,0,.5);
+    }
+
+    .estella{
+        display: flex;
+        gap: .3em;
+    }
+
+    .description__opinion{
+        font-size: .8em;
+        margin-left: 2em;
+        color: rgba(0,0,0,.7)
+    }
+    .star__opinion{
+        margin-left: 1.5em;
+        color: #3483fa;
+    }
+
+`
