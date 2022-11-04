@@ -1,16 +1,17 @@
 {
-  "files": {
-    "main.css": "/CLON-MELI/static/css/main.073c9b0a.css",
-    "main.js": "/CLON-MELI/static/js/main.33449d49.js",
-    "static/js/787.246b754b.chunk.js": "/CLON-MELI/static/js/787.246b754b.chunk.js",
-    "static/media/logo.svg": "/CLON-MELI/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/CLON-MELI/index.html",
-    "main.073c9b0a.css.map": "/CLON-MELI/static/css/main.073c9b0a.css.map",
-    "main.33449d49.js.map": "/CLON-MELI/static/js/main.33449d49.js.map",
-    "787.246b754b.chunk.js.map": "/CLON-MELI/static/js/787.246b754b.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.33449d49.js"
-  ]
+  "main.css": "/CLON-MELI/static/css/main.e13e3491.chunk.css",
+  "main.js": "/CLON-MELI/static/js/main.18997c71.chunk.js",
+  "main.js.map": "/CLON-MELI/static/js/main.18997c71.chunk.js.map",
+  "static/js/1.fbee9149.chunk.js": "/CLON-MELI/static/js/1.fbee9149.chunk.js",
+  "static/js/1.fbee9149.chunk.js.map": "/CLON-MELI/static/js/1.fbee9149.chunk.js.map",
+  "static/js/2.b26a1c66.chunk.js": "/CLON-MELI/static/js/2.b26a1c66.chunk.js",
+  "static/js/2.b26a1c66.chunk.js.map": "/CLON-MELI/static/js/2.b26a1c66.chunk.js.map",
+  "runtime~main.js": "/CLON-MELI/static/js/runtime~main.fbb6b711.js",
+  "runtime~main.js.map": "/CLON-MELI/static/js/runtime~main.fbb6b711.js.map",
+  "static/media/profile.jpg": "/CLON-MELI/static/media/profile.0e36e430.jpg",
+  "static/media/logo.svg": "/CLON-MELI/static/media/logo.06e73328.svg",
+  "static/css/main.e13e3491.chunk.css.map": "/CLON-MELI/static/css/main.e13e3491.chunk.css.map",
+  "index.html": "/CLON-MELI/index.html",
+  "precache-manifest.7ee015ecd649b9666bd4c6c00aa8be3f.js": "/CLON-MELI/precache-manifest.7ee015ecd649b9666bd4c6c00aa8be3f.js",
+  "service-worker.js": "/CLON-MELI/service-worker.js"
 }
